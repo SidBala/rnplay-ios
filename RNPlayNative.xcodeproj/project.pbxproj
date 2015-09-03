@@ -22,6 +22,7 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		1FB8A4DE1B98F7E900C2EA99 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FB8A4DD1B98F7E900C2EA99 /* Ionicons.ttf */; };
 		4202C6741B6174CE007FE903 /* MapboxGL.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4202C6731B6174CE007FE903 /* MapboxGL.bundle */; };
 		4202C6761B6174FA007FE903 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4202C6751B6174FA007FE903 /* Settings.bundle */; };
 		4202C6781B617525007FE903 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4202C6771B617525007FE903 /* CoreTelephony.framework */; };
@@ -61,7 +62,7 @@
 		BB0C0AEC1B02ACF800BDEA30 /* libART.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0C0ADF1B02ACE900BDEA30 /* libART.a */; };
 		BB0C0AF81B02FF7F00BDEA30 /* uiexplorer.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = BB0C0AF71B02FF7F00BDEA30 /* uiexplorer.jsbundle */; };
 		BB0C0AFF1B02FFB800BDEA30 /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0C0AFE1B02FFB100BDEA30 /* libRCTSettings.a */; };
-		BB978E0C1B1A7028003774EB /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB978E0B1B1A7022003774EB /* libRCTCamera.a */; };
+		BB978E0C1B1A7028003774EB /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB978E0B1B1A7022003774EB /* libRCTCamera.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		BBA8F2681B0D2593009C7EB9 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA8F2671B0D258B009C7EB9 /* libRCTWebSocket.a */; };
 		BBA8F26A1B0D267C009C7EB9 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = BBA8F2691B0D267C009C7EB9 /* main.jsbundle */; };
 		BBB0D2011B2231820043BDB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB0D2001B2231820043BDB0 /* Foundation.framework */; };
@@ -315,6 +316,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = iOS/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iOS/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		1FB8A4DD1B98F7E900C2EA99 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		4202C6731B6174CE007FE903 /* MapboxGL.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MapboxGL.bundle; path = "node_modules/react-native-mapbox-gl/RCTMapboxGL/MapboxGL.bundle"; sourceTree = "<group>"; };
 		4202C6751B6174FA007FE903 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = "node_modules/react-native-mapbox-gl/RCTMapboxGL/Settings.bundle"; sourceTree = "<group>"; };
 		4202C6771B617525007FE903 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -746,6 +748,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				1FB8A4DD1B98F7E900C2EA99 /* Ionicons.ttf */,
 				4202C6A01B617693007FE903 /* Fonts */,
 				4202C6751B6174FA007FE903 /* Settings.bundle */,
 				4202C6731B6174CE007FE903 /* MapboxGL.bundle */,
@@ -1186,6 +1189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB8A4DE1B98F7E900C2EA99 /* Ionicons.ttf in Resources */,
 				4202C6A11B617693007FE903 /* Fonts in Resources */,
 				4202C6761B6174FA007FE903 /* Settings.bundle in Resources */,
 				4202C6741B6174CE007FE903 /* MapboxGL.bundle in Resources */,
